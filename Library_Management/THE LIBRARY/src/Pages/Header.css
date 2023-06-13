@@ -1,0 +1,53 @@
+.header{
+    background-color: #02024d;
+    height: 80px;
+    width: 100%;
+    border-bottom: 0.5px solid rgb(122, 122, 122);
+}
+
+.header h1{
+    text-align: center;
+    margin: 0px;
+    font-size:40px;
+    padding: 15px;
+    color: rgb(181, 223, 121);;
+}
+
+.header input{
+    position:absolute;
+    top:12px;
+    right: 150px;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #333333;
+    border: 0px;
+    color: rgb(231, 222, 222);
+    padding-left: 15px;
+}
+
+
+.header button{
+    position:absolute;
+    top:12px;
+    right: 40px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #524b4b;
+    border: 0px;
+    color: white;
+}
+
+.header button:hover{
+    transition: 0.5s;
+    transform: scale(1.01);
+    background-color: rgb(45, 57, 51);
+    color: white;
+    cursor: pointer;
+}
+
+.header:focus{
+    outline: 0px;
+    border: 0px;
+}
